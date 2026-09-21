@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Aboutpage from './components/Aboutpage'
 import Messager from './components/Messager'
 import Template from './components/Template'
+import Error from './components/Error'
 import './App.css'
 
 const App = () => {
