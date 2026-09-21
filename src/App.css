@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+.nav{
+    width: auto;
+    height: 50px ;
+    
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    
+    gap: 10px;
+    margin-left: 10px;
+    
+
+    
+}
+
+
+.content{
+    margin-left: 10px;
+}
