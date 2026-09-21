@@ -3,8 +3,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Services from './components/Services'
 import Contact from './components/Contact'
 import Home from './components/Home'
-import About from './components/about'
-import Message from './components/message'
+import Aboutpage from './components/Aboutpage'
+import Messager from './components/Messager'
 import Template from './components/Template'
 import './App.css'
 
@@ -21,7 +21,7 @@ const App = () => {
           },
           {
             path:"/about",
-            element:<About/>
+            element:<Aboutpage/>
           },
           {
             path:"/contact",
@@ -32,7 +32,7 @@ const App = () => {
             element:<Services/>
           },
           { path:"welcome/:username",
-            element:<Message/>
+            element:<Messager/>
           },
 
           {
